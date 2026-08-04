@@ -1,0 +1,38 @@
+# SR-2026-STAN-01 — corpus re-verification
+# generated: 2026-08-02T17:26:55Z
+# hosts: 14   seeds: 13
+
+HOST                                   DNS                        HTTP       NOTE
+----                                   ---                        ----       ----
+sbc-hc-proxy.stanford.edu              54.185.146.111             no-resp    no TLS/HTTP response
+smc-aws-pub.stanford.edu               54.153.7.154               no-resp    no TLS/HTTP response
+cs355.stanford.edu                     185.199.110.153,185.199.111.153 200        server=GitHub.com
+widescope.stanford.edu                 204.236.161.254            no-resp    no TLS/HTTP response
+webapp-new.itlab.stanford.edu          CNAME:.                    -          record removed
+ldap-sh3.int.authnz-x.stanford.edu     NXDOMAIN                   -          record removed
+testec2.asiaaws.stanford.edu           NXDOMAIN                   -          record removed
+edtechdev1.stanford.edu                NXDOMAIN                   -          record removed
+forum-daemo.stanford.edu               NXDOMAIN                   -          record removed
+eedpoccmg01.stanford.edu               NXDOMAIN                   -          record removed
+glucose-dev.stanford.edu               NXDOMAIN                   -          record removed
+swarm01.ic.stanford.edu                NXDOMAIN                   -          record removed
+snipe-it.stanford.edu                  NXDOMAIN                   -          record removed
+platformlab.stanford.edu               NXDOMAIN                   -          record removed
+
+# apex control:
+stanford.edu                           171.67.215.200 
+
+# --- service-level probes (HEAD only; no page bodies fetched) ---
+sbc-hc-proxy.stanford.edu    443/80  no service (connection timeout)
+smc-aws-pub.stanford.edu     443/80  no service (connection refused)
+widescope.stanford.edu       443/80  no service (connection timeout)
+
+# --- cs355.stanford.edu ---
+CNAME            securitylab.github.io.
+A (via CNAME)    185.199.108-111.153  (GitHub Pages range)
+HTTP /           200  server: GitHub.com
+TLS subject      CN=cs355.stanford.edu
+TLS issuer       C=US, O=Let's Encrypt, CN=YR1
+TLS validity     notBefore=Jul 30 18:05:19 2026 GMT  notAfter=Oct 28 18:05:18 2026 GMT
+indexed spam path  404  (content removed)
+control path       404  (baseline)

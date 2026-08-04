@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 540" width="700" height="540" role="img" aria-label="Figure 2 — Residual risk matrix, likelihood versus impact">
+  <rect width="700" height="540" fill="#F6F2E9"/>
+  <rect x="16" y="16" width="668" height="508" fill="none" stroke="#B0894C" stroke-width="1"/>
+
+  <text x="350" y="52" font-family="Georgia, serif" font-size="21" fill="#1C2A39" text-anchor="middle" font-weight="700">Figure 2 — Residual Risk Matrix</text>
+  <text x="350" y="76" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#3F4C5A" text-anchor="middle">Campaign no longer served &#183; risk is what remains re-claimable</text>
+
+  <text x="48" y="310" font-family="Georgia, serif" font-size="13" fill="#6B7280" text-anchor="middle" transform="rotate(-90 48 310)">LIKELIHOOD &#8594;</text>
+  <text x="390" y="516" font-family="Georgia, serif" font-size="13" fill="#6B7280" text-anchor="middle">IMPACT &#8594;</text>
+
+  <g transform="translate(115,110)">
+    <rect x="0"   y="0"   width="160" height="110" fill="#7A1F2B22"/>
+    <rect x="160" y="0"   width="160" height="110" fill="#7A1F2B33"/>
+    <rect x="320" y="0"   width="160" height="110" fill="#7A1F2B4D"/>
+    <rect x="0"   y="110" width="160" height="110" fill="#7A1F2B14"/>
+    <rect x="160" y="110" width="160" height="110" fill="#7A1F2B22"/>
+    <rect x="320" y="110" width="160" height="110" fill="#7A1F2B38"/>
+    <rect x="0"   y="220" width="160" height="110" fill="#B0894C14"/>
+    <rect x="160" y="220" width="160" height="110" fill="#7A1F2B10"/>
+    <rect x="320" y="220" width="160" height="110" fill="#7A1F2B1E"/>
+
+    <g stroke="#C9BFA6" stroke-width="1.5" fill="none">
+      <rect x="0" y="0" width="480" height="330"/>
+      <line x1="160" y1="0" x2="160" y2="330"/>
+      <line x1="320" y1="0" x2="320" y2="330"/>
+      <line x1="0" y1="110" x2="480" y2="110"/>
+      <line x1="0" y1="220" x2="480" y2="220"/>
+    </g>
+
+    <g font-family="Georgia, serif" font-size="11.5" text-anchor="middle">
+      <!-- Index poisoning persists: certain, medium impact -->
+      <circle cx="240" cy="48" r="29" fill="#7A1F2B"/>
+      <text x="240" y="44" fill="#F6F2E9">index</text><text x="240" y="58" fill="#F6F2E9">poisoning</text>
+
+      <!-- DNS re-acquisition: medium likelihood, high impact -->
+      <circle cx="400" cy="160" r="29" fill="#96323E"/>
+      <text x="400" y="156" fill="#F6F2E9">DNS re-</text><text x="400" y="170" fill="#F6F2E9">acquisition</text>
+
+      <!-- Phishing on stanford.edu trust: low-med, high -->
+      <circle cx="400" cy="272" r="24" fill="#B0894C"/>
+      <text x="400" y="269" fill="#1C2A39" font-size="10.5">phishing</text><text x="400" y="281" fill="#1C2A39" font-size="10.5">on trust</text>
+
+      <!-- Misattribution harm (false positives): low likelihood now, high impact -->
+      <circle cx="330" cy="280" r="22" fill="#B0894C"/>
+      <text x="330" y="277" fill="#1C2A39" font-size="9.5">mis-</text><text x="330" y="289" fill="#1C2A39" font-size="9.5">attribution</text>
+
+      <!-- Renewed active serving: low likelihood, medium-high -->
+      <circle cx="250" cy="275" r="21" fill="#C9BFA6"/>
+      <text x="250" y="272" fill="#1C2A39" font-size="9.5">renewed</text><text x="250" y="284" fill="#1C2A39" font-size="9.5">serving</text>
+    </g>
+
+    <g font-family="Georgia, serif" font-size="12" fill="#6B7280">
+      <text x="-10" y="58"  text-anchor="end">High</text>
+      <text x="-10" y="168" text-anchor="end">Med</text>
+      <text x="-10" y="278" text-anchor="end">Low</text>
+      <text x="80"  y="352" text-anchor="middle">Low</text>
+      <text x="240" y="352" text-anchor="middle">Med</text>
+      <text x="400" y="352" text-anchor="middle">High</text>
+    </g>
+  </g>
+
+  <g font-family="Georgia, serif" font-size="12" fill="#3F4C5A">
+    <circle cx="120" cy="492" r="6" fill="#7A1F2B"/><text x="134" y="496">Present harm</text>
+    <circle cx="270" cy="492" r="6" fill="#96323E"/><text x="284" y="496">Principal path back</text>
+    <circle cx="450" cy="492" r="6" fill="#B0894C"/><text x="464" y="496">Secondary</text>
+    <text x="560" y="496" font-style="italic" fill="#6B7280">qualitative</text>
+  </g>
+</svg>

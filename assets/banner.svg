@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Subdomain SEO-Poisoning Exposure — independent security research whitepaper">
+  <defs>
+    <linearGradient id="foot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1C2A39"/>
+      <stop offset="1" stop-color="#243549"/>
+    </linearGradient>
+  </defs>
+
+  <!-- paper -->
+  <rect width="1200" height="380" fill="#F6F2E9"/>
+
+  <!-- engraved double frame -->
+  <rect x="24" y="24" width="1152" height="332" fill="none" stroke="#7A1F2B" stroke-width="2"/>
+  <rect x="31" y="31" width="1138" height="318" fill="none" stroke="#B0894C" stroke-width="1"/>
+
+  <!-- emblem: generic research roundel (NOT a Stanford mark) -->
+  <g transform="translate(95,86)">
+    <circle cx="60" cy="60" r="56" fill="none" stroke="#1C2A39" stroke-width="2"/>
+    <circle cx="60" cy="60" r="47" fill="none" stroke="#B0894C" stroke-width="1"/>
+    <!-- shield -->
+    <path d="M60 26 L88 36 V64 C88 84 76 98 60 106 C44 98 32 84 32 64 V36 Z"
+          fill="none" stroke="#7A1F2B" stroke-width="2.5"/>
+    <path d="M49 62 l8 8 16 -20" fill="none" stroke="#7A1F2B" stroke-width="3"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- micro laurel ticks -->
+    <g stroke="#1C2A39" stroke-width="1.5" opacity="0.5">
+      <path d="M18 60 q6 -8 12 -3" fill="none"/>
+      <path d="M102 60 q-6 -8 -12 -3" fill="none"/>
+    </g>
+  </g>
+
+  <!-- title block -->
+  <text x="250" y="96" font-family="Georgia, 'Times New Roman', serif" font-size="15"
+        letter-spacing="4" fill="#7A1F2B">INDEPENDENT SECURITY RESEARCH — DISCLOSURE REPORT</text>
+
+  <text x="250" y="152" font-family="Georgia, 'Times New Roman', serif" font-size="46"
+        fill="#1C2A39" font-weight="700">Subdomain SEO-Poisoning</text>
+  <text x="250" y="204" font-family="Georgia, 'Times New Roman', serif" font-size="46"
+        fill="#1C2A39" font-weight="700">Exposure</text>
+
+  <line x1="252" y1="228" x2="1120" y2="228" stroke="#B0894C" stroke-width="1"/>
+
+  <text x="250" y="262" font-family="Georgia, 'Times New Roman', serif" font-size="20"
+        font-style="italic" fill="#3F4C5A">Orphaned &amp; dangling-DNS hosts serving injected spam under stanford.edu</text>
+
+  <!-- metadata line -->
+  <text x="250" y="298" font-family="'SFMono-Regular', Consolas, monospace" font-size="13"
+        letter-spacing="1" fill="#6B7280">REPORT SR&#8209;2026&#8209;STAN&#8209;01 &#160;&#183;&#160; TLP:CLEAR &#160;&#183;&#160; REV. 5 &#160;&#183;&#160; VERIFIED 3&#8211;4 AUG 2026</text>
+
+  <!-- footer disclaimer bar -->
+  <rect x="31" y="320" width="1138" height="29" fill="url(#foot)"/>
+  <text x="600" y="339" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="13" letter-spacing="0.5" fill="#EDE7DA">
+    Not affiliated with, authored by, or endorsed by Stanford University &#183; Redacted &#183; No victim names or spam URLs reproduced
+  </text>
+</svg>
